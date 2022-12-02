@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DemoWebAPI.Migrations
 {
     [DbContext(typeof(DemoAPIDbContext))]
-    [Migration("20221202095847_InitalDB")]
-    partial class InitalDB
+    [Migration("20221202113018_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
